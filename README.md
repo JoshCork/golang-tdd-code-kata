@@ -10,6 +10,14 @@ The goal of this exercise is to see how far you can get in 30 minutes. Write a t
 
 ## Progress by Week
 
+### 12/20/2017
+
+#### Kata 1
+
+Deleted everything in controllers and main.
+Checking in and starting over.
+
+
 ### 12/15/17
 
 Not a lot of progress today.  Sadly a lot of interuptions and re-learning stuff.  Will pick up here next week.
