@@ -15,6 +15,7 @@
 
 # VSCODE Stuff
 debug
+.vscode
 
 # General
 .DS_Store
