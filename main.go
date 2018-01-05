@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/joshcork/tdd-code-kata/greetings"
+	"github.com/joshcork/tdd-code-kata/messages"
 )
 
 func main(){
@@ -11,7 +11,7 @@ func main(){
 
 func Start() {
 
-	message := GreetMe("World!")
+	message := messages.GreetMe("World!")
 	fmt.Println(message)
 
 }
