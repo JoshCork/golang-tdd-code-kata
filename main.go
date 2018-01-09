@@ -2,10 +2,11 @@ package main
 
 import (
 	"github.com/joshcork/tdd-code-kata/calculator"
+	"fmt"
 )
 
+
 func main() {
-
-	calculator.Add("1,2,3")
-
+	fmt.Print("Hello there!")
+	calculator.Add()
 }
