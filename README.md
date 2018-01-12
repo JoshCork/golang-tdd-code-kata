@@ -57,9 +57,15 @@ The method can take 0, 1 or 2 numbers, and will return their sum. For example:
 
 ## Progress by Day
 
+### 1/12/18 (counting this as day 5)
+
+#### Kata 1: 10:54am
+
 ### 1/11/18
 
 #### Kata 1: 4:30pm
+
+- Didn't make it through thisone.  Mike needed some help from me on focal stuff as did Antonio.
 
 ### 1/9/18
 
