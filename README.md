@@ -59,6 +59,14 @@ The method can take 0, 1 or 2 numbers, and will return their sum. For example:
 
 ### 1/12/18 (counting this as day 5)
 
+#### Kata 3: 4:31pm
+
+
+
+#### Kata 2: 3:28pm
+
+Fantastic Kata.  Successfully made it hrough step 2 again with table driven tests.  Also refactored my Add function to simplify it and drop my test for length as it was not necessary.  Empty strings get converted to zero anyways... which I don't understand.
+
 #### Kata 1: 10:54am
 
 This one went really well.  I was able to test all the cases in step 1 and step 2 succcessfully w/out issue. Need to move to table drive testing (which I did after the 30 minutes to lear how).
