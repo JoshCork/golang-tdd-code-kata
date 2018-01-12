@@ -61,6 +61,8 @@ The method can take 0, 1 or 2 numbers, and will return their sum. For example:
 
 #### Kata 1: 10:54am
 
+This one went really well.  I was able to test all the cases in step 1 and step 2 succcessfully w/out issue. Need to move to table drive testing (which I did after the 30 minutes to lear how).
+
 ### 1/11/18
 
 #### Kata 1: 4:30pm
