@@ -64,16 +64,15 @@ The method can take 0, 1 or 2 numbers, and will return their sum. For example:
 Yes!  Completed with 13 minutes left to go! Including functionality to take on new lines!
 Spent time thinking through the way to approach the next requirement.  Need to pick up here next week.
 
-```
-// need to parse input looking for "// followed by /"
-	/*
-		if the above is found:
-			- I need to use the value inbetween those two indexes as the delimiter in my splitstr
-			- I need trim that delimiter portion of the string off the front before I pass it into my splitter
+Next steps:
 
-		If the above is not found then I don't change anything and use the range below.
-	*/
-```
+- [ ] need to parse input looking for "// followed by /"
+
+if the above is found:
+	- I need to use the value inbetween those two indexes as the delimiter in my splitstr
+	- I need trim that delimiter portion of the string off the front before I pass it into my splitter
+
+If the above is not found then I don't change anything and use the range below.
 
 #### Kata 2: 3:28pm
 
