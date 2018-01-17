@@ -57,6 +57,16 @@ The method can take 0, 1 or 2 numbers, and will return their sum. For example:
 
 ## Progress by Day
 
+### 1/16/18 (day 6)
+
+#### Kata 1: 4:13pm
+
+Finished with 7 minutes to go all the way to the same point as Friday (so slower by about 10 minutes for my first run of the day).
+
+Spent the rest of the time figuring out how to satisfy the requirement in step 4.  What I came up with was a modification to the Add function first checking for a prefix.  I'll explore this more tomorrow.
+
+
+
 ### 1/12/18 (counting this as day 5)
 
 #### Kata 3: 4:31pm
