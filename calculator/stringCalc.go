@@ -1,34 +1,31 @@
 package calculator
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 )
 
 func Add(nums string) int {
 
-	// need to parse input looking for "// followed by /"
-	/*
-		if the above is found:
-			- I need to use the value inbetween those two indexes as the delimiter in my splitstr
-			- I need trim that delimiter portion of the string off the front before I pass it into my splitter
+	fmt.Println(strings.Index(nums, "//"))
+	fmt.Println(strings.HasPrefix(nums, "//"))
 
-		If the above is not found then I don't change anything and use the range below.
-	*/
+	if strings.HasPrefix(nums, "//") > -1 {
+		// prefix := [element 1 of slace after doing a nums split string on \n after doing a trimprfix on \\]
+		// fNums := replace element 2 of split string on nums \n replacing prefix with a comma
 
+	} // else { fNums from line 20 }
 
+	fNums := strings.Replace(nums, "\n", ",", -1)
+	sum := 0
+	numsSlice := strings.Split(fNums, ",")
 
-	r := strings.NewReplacer("\n", ",")
-	formattedStrings := r.Replace(nums)
-	numbers := strings.Split(formattedStrings, ",")
-
-	returnValue := 0
-
-	for _, sNum := range numbers {
-		iNum, _ := strconv.Atoi(sNum)
-		returnValue = returnValue + iNum
+	for _,num := range numsSlice {
+		intNum,_ := strconv.Atoi(num)
+		sum = sum + intNum
 	}
 
-	return returnValue
+	return sum
 
 }
