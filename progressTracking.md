@@ -1,5 +1,12 @@
 ## Progress by Day
 
+
+### 1/26/18 (day 7)
+
+#### Kata 1: 3:30pm
+
+Made it through step 3, but not quite through step 4.  Spent to much time remember the solution and exploring options.
+
 ### 1/16/18 (day 6)
 
 #### Kata 1: 4:13pm

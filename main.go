@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	calculator.Add("//;\n1;2")
+	calculator.Add("1,2,3")
 }
