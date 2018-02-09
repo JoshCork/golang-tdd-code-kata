@@ -1,5 +1,12 @@
 ## Progress by Day
 
+### 2/9/18 (day 8)
+
+#### Kata 1: 3:59pm
+
+Made it through step 3, started on step 4.  Not too shabby.
+Got hung up for a long while on my struct for my table driven test.  I spelled struct wrong and it took forever to figure out what the error was.
+
 ### 1/16/18 (day 6)
 
 #### Kata 1: 4:13pm
