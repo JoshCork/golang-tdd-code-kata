@@ -9,6 +9,13 @@ Got hung up for a long while on my struct for my table driven test.  I spelled s
 
 ### 1/16/18 (day 6)
 
+#### Kata 2: 4:35pm to 5pm (25 minutes)
+
+Ugh. Almost finished with step 4.  Need to memorize a pattern for getting substrings out of a string efficently.  I think the answer can be found here:
+
+https://www.dotnetperls.com/substring-go
+
+
 #### Kata 1: 4:13pm
 
 Finished with 7 minutes to go all the way to the same point as Friday (so slower by about 10 minutes for my first run of the day).
