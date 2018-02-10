@@ -5,9 +5,18 @@ import (
 	"strings"
 )
 
+func helpSubstring(myString string) string {
+	delimiterEnd := strings.Index(myString, "\n")
+
+}
+
 func Add(numString string) int {
 	output := 0
-	delimiter := "\n"
+	delimiter := ","
+
+	if strings.Index(numString, "//") = 0 {
+		delimiter =
+	}
 
 	numString = strings.Replace(numString, delimiter, ",", -1)
 
