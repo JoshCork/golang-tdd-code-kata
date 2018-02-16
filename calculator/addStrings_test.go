@@ -13,6 +13,7 @@ var addTests = []struct {
 	{"2,3", 5},
 	{"1\n2,3", 6},
 	{"//;\n1;2", 3},
+	{"//||\n1||2||4||2", 9},
 }
 
 func TestAdd(t *testing.T) {
