@@ -2,7 +2,13 @@
 
 ### 2/16/18 (Day 9)
 
-#### Kata 1: 2:15ish pm
+#### Kata 1: 2:17p - 2:47p
+
+Whoa!  This went really well.  Was able to finish through step 4 on my first try of the day.
+
+**Possible Improvements**
+I could maybe combine my helper functions to return a couple of values (the delimiter and the string w/out the prefix)?
+I could change my helper function into a prep string function that replaces the delimiter with commas and then returns the string pre-formatted.
 
 
 
