@@ -1,5 +1,11 @@
 ## Progress by Day
 
+### 2/16/18 (Day 9)
+
+#### Kata 1: 2:15ish pm
+
+
+
 ### 2/9/18 (day 8)
 
 #### Kata 1: 3:59pm
