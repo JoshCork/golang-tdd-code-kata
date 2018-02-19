@@ -17,6 +17,7 @@ func findDelim(delimString string) string {
 func Add(numString string) (int, error) {
 	output := 0
 	delimiter := ","
+	negNumbers := ""
 
 	// test for new delim
 	if strings.Index(numString, "\\") == 0 {
@@ -35,11 +36,17 @@ func Add(numString string) (int, error) {
 
 	// range over numbers summing the value of each element
 	for _, number := range numbers {
+
 		thisNumber, _ := strconv.Atoi(number)
 		if thisNumber < 0 {
-			return -1, errors.New("can't work with negative numbers!")
+			negNumbers = negNumbers + "," + number
+		} else {
+			output = output + thisNumber
 		}
-		output = output + thisNumber
+	}
+
+	if negNumbers != "" {
+		return -1, errors.New("can't work with negative numbers " + negNumbers)
 	}
 
 	return output, nil

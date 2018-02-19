@@ -15,7 +15,8 @@ var addTests = []struct {
 	{"1\n2,3", 6, ""},
 	{"\\;\n1;2;3", 6, ""},
 	{"\\|\n1|2|3|4", 10, ""},
-	{"-1", -1, "can't work with negative numbers"},
+	{"-1", -1, "can't work with negative numbers ,-1"},
+	{"-1,-2,-3", -1, "can't work with negative numbers ,-1,-2,-3"},
 }
 
 func TestAdd(t *testing.T) {
@@ -23,7 +24,7 @@ func TestAdd(t *testing.T) {
 		actual, err := Add(testCase.input)
 		if err != nil {
 			if err.Error() != testCase.theErr {
-				t.Errorf("Oh Snap! Expecting an error, just not this one: %s", err.Error())
+				t.Errorf("Oh Snap! For Input: %s | Expecting error: %s | Actual Error: %s", testCase.input, testCase.theErr, err.Error())
 			}
 		} else {
 			if actual != testCase.output {
