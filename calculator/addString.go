@@ -1,6 +1,7 @@
 package calculator
 
 import (
+	"errors"
 	"strconv"
 	"strings"
 )
@@ -13,7 +14,7 @@ func findDelim(delimString string) string {
 	return safeSubString
 }
 
-func Add(numString string) int {
+func Add(numString string) (int, error) {
 	output := 0
 	delimiter := ","
 
@@ -35,8 +36,11 @@ func Add(numString string) int {
 	// range over numbers summing the value of each element
 	for _, number := range numbers {
 		thisNumber, _ := strconv.Atoi(number)
+		if thisNumber < 0 {
+			return -1, errors.New("can't work with negative numbers!")
+		}
 		output = output + thisNumber
 	}
 
-	return output
+	return output, nil
 }
