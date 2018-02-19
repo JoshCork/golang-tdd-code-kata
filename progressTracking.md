@@ -7,7 +7,7 @@
 Need to update my Add func to return errors (but I'm not there yet).
 Some good discussion on stack overflow about this: https://stackoverflow.com/questions/42035104/how-to-unit-test-go-errors
 
-Now time to go back and do another Kata or two and get comfortable with step 4 before I move on to step 5 and error handling.
+Now time to go back and do another Kata or two and get comfortable with step 4 before I move on to step 5 and error handling.\
 
 ### 2/16/18 (Day 9)
 
