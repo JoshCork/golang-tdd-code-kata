@@ -1,5 +1,14 @@
 ## Progress by Day
 
+### 2/18/18 (Day 10)
+
+#### Research
+
+Need to update my Add func to return errors (but I'm not there yet).
+Some good discussion on stack overflow about this: https://stackoverflow.com/questions/42035104/how-to-unit-test-go-errors
+
+Now time to go back and do another Kata or two and get comfortable with step 4 before I move on to step 5 and error handling.
+
 ### 2/16/18 (Day 9)
 
 #### Kata 1: 2:17p - 2:47p
