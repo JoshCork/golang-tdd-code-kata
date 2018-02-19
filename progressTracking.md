@@ -2,6 +2,10 @@
 
 ### 2/18/18 (Day 10)
 
+#### Kata 1
+
+Finished with 4 minutes to spare through step 4.  Getting better. Need to keep improving.  Removed the need to create a left trim function just trimming the slice directly based on the locaton of the first new line character.  Did this after the fact though.
+
 #### Research
 
 Need to update my Add func to return errors (but I'm not there yet).
