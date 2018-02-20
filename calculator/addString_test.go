@@ -8,12 +8,13 @@ var addTests = []struct {
 	theErr string //error message if expecting an error output
 }{
 	{"", 0, ""},
-	{"2112", 2112, ""},
+	{"2112", 0, ""},
 	{"1,2,3", 6, ""},
 	{"1\n2,3", 6, ""},
 	{"\\;\n1\n2;3", 6, ""},
 	{"-1", -1, "Cannot handle the negativity,-1"},
 	{"-1,1,2,-3", -1, "Cannot handle the negativity,-1,-3"},
+	{"2112,1,2", 3, ""},
 }
 
 func TestAdd(t *testing.T) {

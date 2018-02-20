@@ -34,6 +34,8 @@ func Add(numString string) (int, error) {
 		thisNumber, _ := strconv.Atoi(number)
 		if thisNumber < 0 {
 			negatives = negatives + "," + number
+		} else if thisNumber > 1000 {
+			// do nothing
 		} else {
 			output = output + thisNumber
 		}
