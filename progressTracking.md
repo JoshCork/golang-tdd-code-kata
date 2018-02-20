@@ -1,5 +1,10 @@
 ## Progress by Day
 
+### 2/19/2018 (Day 11)
+
+#### Kata 1
+Excellent progress.  I finished after a bit of troubleshooting just after 30 minutes.  I would have been done before had it not been for a typo in my error message and making comparing the string error to the memory location of the error.  So i used ```testCase.theErr != err.Error``` instead of ```testCase.theErr != err.Error()```
+
 ### 2/18/18 (Day 10)
 
 #### Kata 1
