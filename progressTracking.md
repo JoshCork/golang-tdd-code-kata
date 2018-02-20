@@ -2,7 +2,13 @@
 
 ### 2/20/2018 (Day 12)
 
-#### Kata 4
+#### Kata 1
+
+Made it through step 5 again on the first try.  Would have made it through step 6 if not for a few interuptions (because step 6 only takes about another 10 second to implement and 5 seconds to add a test case).
+
+I also got caught up on a few crazy errors where i had my strings.index function backwards because I was hurrying too much.
+
+I'd like to get through this again with lots of time to spare so that I can work through step 7&8 and add those to my timed results.  These should be realtively easy to incorporate as step 7 is already the case (w/out the formatting of the brakets[]).  Step 8 will be a little harder but should be relatively easy to iterate through my find delimiter function.  I'll need to do some exploration with that first.
 
 
 ### 2/19/2018 (Day 11)
