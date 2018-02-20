@@ -2,6 +2,9 @@
 
 ### 2/20/2018 (Day 12)
 
+#### Kata 2
+
+
 #### Kata 1
 
 Made it through step 5 again on the first try.  Would have made it through step 6 if not for a few interuptions (because step 6 only takes about another 10 second to implement and 5 seconds to add a test case).
