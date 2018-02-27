@@ -25,12 +25,32 @@ func findDelim (delimString string) (string, int) {
 				delim = strings.Replace(safeSubString, "]", "", -1)
 				delims = append(delims, delim)
 			}
-			// leaving off here today.  I need to map each delim in delims to a comma
-			// and then pass back that map and execute the map on the actual string to be added
-			// doing a replace on each using the map.
+			// leaving off here today.  took this down a different experimental route with a clean
+			// string function. Need top pick up here tomorrow.
+
 		}
 	return safeSubString, endDelim
 }
+
+func cleanString(dirtyString string) string {
+	delimString := dirtyString[1:strings.Index(dirtyString, "\n")]
+	numString := dirtyString[strings.Index(dirtyString, "\n")+1:]
+
+}
+
+func test() {
+
+	dirtyString := ""
+	dirtyString = "\\***\n1***2***3***4"
+	delimString := dirtyString[1:strings.Index(dirtyString, "\n")]
+	numString := dirtyString[strings.Index(dirtyString, "\n")+1:]
+
+	fmt.Printf("%q\n",delimString)
+	fmt.Printf("%q\n",numString)
+	fmt.Printf("%q\n",dirtyString)
+
+}
+
 
 func Add(numString string) (int, error) {
 	output := 0
